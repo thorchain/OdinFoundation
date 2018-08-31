@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="423px" height="423px" viewBox="0 0 423 423" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#33FF99" offset="0%"></stop>
+            <stop stop-color="#00CCFF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="187.5" cy="187.5" r="187.5"></circle>
+        <filter x="-9.1%" y="-9.1%" width="118.1%" height="118.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.2   0 0 0 0 1   0 0 0 0 0.6  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#00CCFF" offset="0%"></stop>
+            <stop stop-color="#33FF99" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Block-Explorer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-8.000000, -8.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(32.000000, 32.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use stroke="url(#linearGradient-1)" stroke-width="8" fill="#101921" xlink:href="#path-2"></use>
+                </g>
+                <path d="M97,290.467662 L241.143568,229.764037 L195.542999,183.502488 L97,290.467662 Z M149.942431,137.304904 L195.542999,183.502488 L277,84 L149.942431,137.304904 Z" id="Shape" fill="url(#linearGradient-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
