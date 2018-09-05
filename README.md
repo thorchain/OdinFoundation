@@ -2,9 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
-## Development server
+# Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project requires Angular-CLI and NPM. Make sure you have installed NPM, then install Angular-CLI with this command 
+
+` npm i @angular/cli `
+
+On windows, you should also have windows-build-tools. Install it with this command:
+
+` npm i windows-build-tools `
+
+Once you're done, navigate to the folder in your favorite CLI (command prompt, bash, etc) and run the command :
+
+` npm install `
+
+
+# Angular Information
 
 ## Code scaffolding
 
